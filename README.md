@@ -1,5 +1,6 @@
 # Codsoft_java_programming_task
 A folder for the Codsoft internship tasks
+******************************************************************************************************
 
 task 1
 
@@ -17,7 +18,8 @@ How to Run:
 	1.	Clone the repository.
 	2.	Compile the program using javac NumGame.java.
 	3.	Run the program with java NumGame.
-(*************************************************************************************************
+ 
+ *************************************************************************************************
 
 TASK 2 
 
