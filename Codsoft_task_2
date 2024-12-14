@@ -7,6 +7,7 @@ How it works:
 3. Grading: Based on your average percentage, it assigns a grade (A+, A, B, C, or F).
 4. Output: It displays your total marks, average percentage, and grade.
 
+***********************************************************************************************************
 import java.util.Scanner;
 
 public class GradeCalculator {
