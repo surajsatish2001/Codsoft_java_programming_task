@@ -17,4 +17,17 @@ How to Run:
 	1.	Clone the repository.
 	2.	Compile the program using javac NumGame.java.
 	3.	Run the program with java NumGame.
+(*************************************************************************************************
+TASK 2 
 
+
+This Java program helps you calculate your overall performance in a course.
+
+How it works:
+
+Input: You enter the number of subjects and the marks obtained in each.
+Calculation: The program calculates your total marks and average percentage.
+Grading: Based on your average percentage, it assigns a grade (A+, A, B, C, or F).
+Output: It displays your total marks, average percentage, and grade.
+
+******************************************************************************************************
