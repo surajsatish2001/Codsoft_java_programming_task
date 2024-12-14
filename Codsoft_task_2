@@ -1,0 +1,60 @@
+This Java program helps you calculate your overall performance in a course.
+
+How it works:
+
+1. Input: You enter the number of subjects and the marks obtained in each.
+2. Calculation: The program calculates your total marks and average percentage.
+3. Grading: Based on your average percentage, it assigns a grade (A+, A, B, C, or F).
+4. Output: It displays your total marks, average percentage, and grade.
+
+import java.util.Scanner;
+
+public class GradeCalculator {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Ask the user how many subjects they took
+        System.out.print("How many subjects did you take? ");
+        int numSubjects = scanner.nextInt();
+
+        // Create a list to store the marks
+        int[] marks = new int[numSubjects];
+
+        // Get the marks for each subject
+        System.out.println("Enter the marks for each subject:");
+        for (int i = 0; i < numSubjects; i++) {
+            System.out.print("Subject " + (i + 1) + ": ");
+            marks[i] = scanner.nextInt();
+        }
+
+        // Calculate the total marks
+        int totalMarks = 0;
+        for (int mark : marks) {
+            totalMarks += mark;
+        }
+
+        // Calculate the average percentage
+        double averagePercentage = (double) totalMarks / numSubjects;
+
+        // Assign a grade based on the average percentage
+        String grade;
+        if (averagePercentage >= 90) {
+            grade = "A+";
+        } else if (averagePercentage >= 80) {
+            grade = "A";
+        } else if (averagePercentage >= 70) {
+            grade = "B";
+        } else if (averagePercentage >= 60) {
+            grade = "C";
+        } else {
+            grade = "F";
+        }
+
+        // Print the results
+        System.out.println("\nTotal Marks: " + totalMarks);
+        System.out.printf("Average Percentage: %.2f%%\n", averagePercentage);
+        System.out.println("Grade: " + grade);
+
+        scanner.close();
+    }
+}
