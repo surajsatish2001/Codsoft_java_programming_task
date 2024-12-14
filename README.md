@@ -18,6 +18,7 @@ How to Run:
 	2.	Compile the program using javac NumGame.java.
 	3.	Run the program with java NumGame.
 (*************************************************************************************************
+
 TASK 2 
 
 
