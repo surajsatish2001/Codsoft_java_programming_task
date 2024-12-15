@@ -1,4 +1,5 @@
 # Codsoft_java_programming_task
+
 A folder for the Codsoft internship tasks
 ******************************************************************************************************
 
@@ -34,3 +35,28 @@ Grading: Based on your average percentage, it assigns a grade (A+, A, B, C, or F
 Output: It displays your total marks, average percentage, and grade.
 
 ******************************************************************************************************
+
+
+Task 3
+
+How the Student Management System Works:
+
+* Student Class:
+
+Represents a single student with attributes like name, roll number, and grade.
+
+* StudentManagementSystem Class:
+
+Manages a collection of Student objects.
+Provides methods to:
+addStudent: Adds a new student to the collection.
+removeStudent: Removes a student based on their roll number.
+searchStudent: Searches for a student by roll number.
+displayAllStudents: Prints details of all students in the collection.
+
+*  Main Class (User Interface):
+
+Creates an instance of StudentManagementSystem.
+Displays a menu with options for adding, removing, searching, and displaying students.
+Reads user input and calls the appropriate methods of the StudentManagementSystem class to perform the requested actions.
+Continuously loops until the user chooses to exit.
